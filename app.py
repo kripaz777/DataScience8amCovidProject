@@ -29,3 +29,4 @@ if st.button("Predict"):
         st.error(f"I am sorry to say that you have Covid because result = {result[0]}")
     else:
         st.success(f"Thank god you don't have Covid because result = {result[0]}")
+        st.balloons()
